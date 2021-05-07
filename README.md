@@ -2,7 +2,7 @@
 
 This repository contains the code and data used in two recent publications that used mobile device data to model the spread of COVID-19 throughout a partially vaccinated population:
 - [Protecting the Most Vulnerable by Vaccinating the Most Active](https://www.rand.org/pubs/perspectives/PEA1068-1.html) (RAND Perspective report)
-- Using Mobile Device Data to Measure The Impact of Social Distancing Measures and Optimal Vaccination Strategies for COVID-19 (submitted to Science).
+- Modeling the Impact of Social Distancing and Targeted Vaccination on the Spread of COVID-19 through a Real City-Scale Contact Network  (forthcoming).
 
 ## Project description
 Motivated by the (then) imminent availability of COVID-19 vaccines, this repository was used to compare the efficacies of different network-based vaccination strategies. It is a well-known result in network science that targeted strategies, where more connected nodes are vaccinated first, can sometimes far outperform the strategy where nodes are vaccinated uniformly at random. <sup id="pastor-satorras">[1](#f1)</sup> It also seems plausible that vaccinating nodes with low connectivities is an even worse strategy.
@@ -43,7 +43,7 @@ The repository is primarily organized into multiple Jupyter notebooks, each acco
 
 The `utils.py` folder also contains some useful functions used by the various notebooks.
 
-## Contact
+### Contact
 Code developed and maintained by Gavin Hartnett (hartnett@rand.org).
 
 <b id="f1">1</b> Pastor-Satorras, Romualdo, and Alessandro Vespignani. "Immunization of complex networks."  [Physical review E 65.3 (2002): 036104](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.036104). [ArXiv link](https://arxiv.org/abs/cond-mat/0107066). [↩](#a1)
