@@ -2,7 +2,7 @@
 
 This repository contains the code and data used in two recent publications that used mobile device data to model the spread of COVID-19 throughout a partially vaccinated population:
 - [Protecting the Most Vulnerable by Vaccinating the Most Active](https://www.rand.org/pubs/perspectives/PEA1068-1.html) (RAND Perspective report)
-- Modeling the Impact of Social Distancing and Targeted Vaccination on the Spread of COVID-19 through a Real City-Scale Contact Network  (forthcoming).
+- [Modeling the Impact of Social Distancing and Targeted Vaccination on the Spread of COVID-19 through a Real City-Scale Contact Network](https://doi.org/10.1093/comnet/cnab042).
 
 ## Project description
 Motivated by the (then) imminent availability of COVID-19 vaccines, this repository was used to compare the efficacies of different network-based vaccination strategies. It is a well-known result in network science that targeted strategies, where more connected nodes are vaccinated first, can sometimes far outperform the strategy where nodes are vaccinated uniformly at random. <sup id="pastor-satorras">[1](#f1)</sup> It also seems plausible that vaccinating nodes with low connectivities is an even worse strategy.
